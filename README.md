@@ -55,9 +55,23 @@
 
 ## SCSS:
 
-- [x] Variables
-- [x] Nesting
-- [x] Mixins
+- [O] Variables
+  most important value like color, size
+  \_filename.scss skip the compile
+- [O] Nesting
+  more precise targeting
+  &:hover
+  & => father
+- [O] Mixins
+  @mixin link($word) {
+        text-decoration: none;
+        display: block;
+        @if $word == "odd" {
+  color: blue;
+  } @else {
+  color: red;
+  }
+  }
 - [x] Extend
 - [x] Responsive Mixins
 
