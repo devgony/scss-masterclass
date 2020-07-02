@@ -9,9 +9,9 @@ sass.compiler = require("node-sass");
 const routes = {
   css: {
     watch: "src/scss/*",
-    src: "src/scss/styles.scss",
-    dest: "dist/css"
-  }
+    src: "src/scss/besthorrorscenes.scss",
+    dest: "dist/css/",
+  },
 };
 
 const styles = () =>
@@ -21,7 +21,7 @@ const styles = () =>
     .pipe(
       autoprefixer({
         flexbox: true,
-        grid: "autoplace"
+        grid: "autoplace",
       })
     )
     .pipe(minify())
@@ -31,7 +31,7 @@ const watch = () => {
   gulp.watch(routes.css.watch, styles);
 };
 
-const clean = () => del(["dist/styles.css"]);
+const clean = () => del(["dist/besthorrorscenes.css"]);
 
 const prepare = gulp.series([clean]);
 

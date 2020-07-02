@@ -57,23 +57,65 @@
 
 - [O] Variables
   most important value like color, size
+  ```
   \_filename.scss skip the compile
+  ```
 - [O] Nesting
   more precise targeting
+  ```
   &:hover
   & => father
+  ```
 - [O] Mixins
-  @mixin link($word) {
-        text-decoration: none;
-        display: block;
-        @if $word == "odd" {
-  color: blue;
-  } @else {
-  color: red;
+
+  ```
+    @mixin link($word) {
+          text-decoration: none;
+          display: block;
+          @if $word == "odd" {
+            color: blue;
+          } @else {
+            color: red;
+          }
+    }
+  ```
+
+- [O] Extend
+  reuse other code (without argument)
+  ```
+  // \_buttons.scss
+  %button {
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 12px;
   }
+  // styles.scss
+  @import "\_buttons"
+  a {
+   @extend %button
   }
-- [x] Extend
-- [x] Responsive Mixins
+  ```
+- [O] Responsive Mixins
+  to adjust media query
+  ```
+  // \_mixins.scss
+  @mixin responsive($device) {
+    @if $device == 'iphone' {
+      @media screen and (min-width: 500px) and (max-width: 600px) {
+      @content;
+    } else {
+      @media screen and (max-width: ~)
+      @content;
+    }
+  }
+  //styles.scss
+  a {
+    @include responsive
+  }
+  ```
+  Awesome SCSS
+  Bourbon - really cool
+  Sass Media query
 
 ## To Clone:
 
