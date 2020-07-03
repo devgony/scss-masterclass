@@ -130,3 +130,7 @@
 - [x] [http://donicaida.com/](http://donicaida.com/)
 - [x] [https://canalstreet.market/](https://canalstreet.market/)
 - [x] [https://wonhundred.com/](https://wonhundred.com/)
+
+## To figure out
+
+1. box-sizing: border-box;
