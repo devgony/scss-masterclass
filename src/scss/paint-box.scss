@@ -123,27 +123,6 @@ main {
         .button-wrapper {
           display: flex;
         }
-        // button {
-        //   border: 1px solid #414141;
-        //   box-sizing: border-box;
-        //   color: #414141;
-        //   cursor: pointer;
-        //   display: inline-block;
-        //   font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
-        //   font-size: 10px;
-        //   height: 55px;
-        //   letter-spacing: 2.2px;
-        //   line-height: 55px;
-        //   max-width: 100%;
-        //   min-width: 240px;
-        //   text-transform: uppercase;
-        //   margin: 0 0 0 0;
-        //   padding: 0 0 0 0;
-        //   &:hover {
-        //     background-color: rgb(65, 65, 65);
-        //     color: white;
-        //   }
-        // }
         .button-arrow {
           min-width: 55px;
           border-left: 0;
@@ -183,6 +162,7 @@ main {
       }
     }
     .forth-wrapper-gift-cards {
+      margin-top: 5vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -209,6 +189,81 @@ main {
       justify-content: space-around;
       align-items: center;
       height: 40vh;
+    }
+    .sixth-wrapper-email {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 5vh;
+      height: 20vh;
+      // padding-bottom: 5vh;
+      h3 {
+        width: 85vh;
+        text-align: center;
+      }
+      .wrapper-email-button {
+        border-bottom: 1px solid black;
+        width: 82vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        input {
+          border: 0;
+          font-size: 3vh;
+          font-family: "freight-display-pro", "Times New Roman", serif;
+        }
+        button {
+          min-width: 6vh;
+        }
+      }
+    }
+    .seventh-wrapper-8pictures {
+      // max-width: 80vh;
+      margin-top: 8vh;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      align-items: stretch;
+      justify-items: stretch;
+      // justify-content: center;
+      // height: 60vh;
+      img {
+        max-width: 100%;
+        height: auto;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+    .wrapper-follow-us {
+      margin-top: 5vh;
+      text-align: center;
+      color: #7d7d7d;
+    }
+  }
+}
+
+footer {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-around;
+  .border-section {
+    border-right: 1px solid black;
+  }
+  section {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer-title {
+      color: gray;
+      margin-bottom: 3vh;
+    }
+    p {
+      margin-bottom: 1vh;
     }
   }
 }
