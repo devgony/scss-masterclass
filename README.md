@@ -121,8 +121,8 @@
 
 - [O][https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [O][https://paint-box.com/](https://paint-box.com/)
-- [>][http://10x19.co/](http://10x19.co/)
-- [x] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
+- [O][http://10x19.co/](http://10x19.co/)
+- [>][http://www.z-o-o.fr/](http://www.z-o-o.fr/)
 - [x] [https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
 - [x] [https://tolv.dk/](https://tolv.dk/)
 - [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
@@ -139,12 +139,20 @@
 
 - cursor: pointer;
 
-body > \*:not(.footer) {
+```
+body > *:not(.footer) {
 padding: 0px 140px;
 }
 // select direct children of body except footer
+```
 
 - no need absolute, just use background-image with url
 
+```
 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+```
+
+## 10x19
+
+- center image is hard to adjust the size

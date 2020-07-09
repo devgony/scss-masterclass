@@ -38,10 +38,18 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr 1fr;
     gap: 1px;
-    img {
-      height: 100%;
-      width: auto;
+    .center-image {
+      // width: 100%;
+      // height: auto;
+      background-image: url("../../middle-picture.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
     }
+    // img {
+    //   height: 100%;
+    //   width: auto;
+    // }
     .scrolling-text {
       width: 100%;
       white-space: nowrap;
