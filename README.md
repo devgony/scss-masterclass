@@ -122,9 +122,9 @@
 - [O][https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [O][https://paint-box.com/](https://paint-box.com/)
 - [O][http://10x19.co/](http://10x19.co/)
-- [>][http://www.z-o-o.fr/](http://www.z-o-o.fr/)
-- [x] [https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
-- [x] [https://tolv.dk/](https://tolv.dk/)
+- [O][http://www.z-o-o.fr/](http://www.z-o-o.fr/)
+- [O][https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
+- [>][https://tolv.dk/](https://tolv.dk/)
 - [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
 - [x] [https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
@@ -156,3 +156,23 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## 10x19
 
 - center image is hard to adjust the size
+
+## Zoo
+
+- Using selector like :not() :first-of-type
+
+## Schwartz
+
+- grid-order
+  ```
+  div:nth-of-type(4n + 3) {
+    grid-column: 2 / 3;
+  }
+  grid-auto-flow: dense;
+  ```
+- grid-default-size
+  `grid-auto-rows: 363px;`
+- get random photo with size
+  `https://source.unsplash.com/random/500x360`
+- align center without flexbox
+  `margin: 0 auto;`

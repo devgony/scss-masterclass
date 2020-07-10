@@ -25,6 +25,9 @@ header nav {
     font-size: 4vh;
     &:hover {
       background-color: lightgray;
+      &:first-of-type li:not(:first-of-type) {
+        color: white;
+      }
     }
     li:not(.language) {
       margin-right: 5vw;
