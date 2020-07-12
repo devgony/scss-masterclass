@@ -14,14 +14,17 @@ header {
     grid-template-rows: auto;
     width: 80%;
     ul {
+      background-color: red;
       display: flex;
       justify-content: space-around;
     }
     span {
+      background-color: blue;
       text-align: center;
       font-size: 3vh;
     }
     i {
+      background-color: green;
       text-align: right;
     }
     li,
@@ -79,7 +82,8 @@ main {
       height: 40vh;
       &:hover {
         // transition: opacity 0.5s ease-in-out;
-        opacity: 0.5;
+        // opacity: 0.5;
+        filter: blur(10px);
       }
     }
   }
