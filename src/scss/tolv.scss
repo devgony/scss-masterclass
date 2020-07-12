@@ -1,7 +1,10 @@
+body {
+  cursor: url(../../cursor1.png), auto;
+}
+
 header {
   //   width: 100%;
   display: flex;
-  z-index: 99;
   justify-content: center;
   nav {
     position: fixed;
@@ -21,6 +24,11 @@ header {
     i {
       text-align: right;
     }
+    li,
+    span,
+    i:hover {
+      cursor: url(../../cursor2.png), auto;
+    }
   }
 }
 main {
@@ -33,7 +41,7 @@ main {
       div {
         background-image: url("https://source.unsplash.com/random");
         background-size: cover;
-        opacity: 0.7;
+        // opacity: 0.7;
         height: 100vh;
       }
     }
