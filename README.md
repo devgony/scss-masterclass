@@ -176,3 +176,7 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
   `https://source.unsplash.com/random/500x360`
 - align center without flexbox
   `margin: 0 auto;`
+
+## tolv
+
+- how to change the mouse pointer with element not image

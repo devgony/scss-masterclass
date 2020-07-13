@@ -14,17 +14,18 @@ header {
     grid-template-rows: auto;
     width: 80%;
     ul {
-      background-color: red;
       display: flex;
       justify-content: space-around;
     }
-    span {
-      background-color: blue;
+    ul span {
+      display: flex;
       text-align: center;
       font-size: 3vh;
+      div {
+        transform: rotateZ(-15deg);
+      }
     }
     i {
-      background-color: green;
       text-align: right;
     }
     li,
