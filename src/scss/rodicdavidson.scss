@@ -1,0 +1,63 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  & > section {
+    margin-top: 1vh;
+  }
+  .section-left {
+    .title {
+      margin-top: 1vh;
+      margin-left: 1vw;
+      &:hover {
+        color: blue;
+        cursor: pointer;
+      }
+    }
+  }
+  .section-right {
+    header {
+      margin-bottom: 1vh;
+      nav {
+        display: flex;
+        // justify-content: space-around;
+        * {
+          margin-right: 1vw;
+          &:hover {
+            color: blue;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .container-projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-gap: 1vw;
+      .project {
+        .img-project {
+          background-image: url("https://source.unsplash.com/featured/?house");
+          background-size: cover;
+          height: 40vh;
+        }
+        &:nth-child(1),
+        &:nth-child(3),
+        &:nth-child(6),
+        &:nth-child(8) {
+          .img-project {
+            height: 80vh;
+          }
+        }
+        &:nth-child(7) {
+          h5 {
+            margin-bottom: 2vh;
+          }
+          p {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}

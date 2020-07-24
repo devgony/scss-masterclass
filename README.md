@@ -124,8 +124,8 @@
 - [O][http://10x19.co/](http://10x19.co/)
 - [O][http://www.z-o-o.fr/](http://www.z-o-o.fr/)
 - [O][https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
-- [>][https://tolv.dk/](https://tolv.dk/)
-- [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
+- [O][https://tolv.dk/](https://tolv.dk/)
+- [>][https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
 - [x] [https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
 - [x] [https://canalstreet.market/](https://canalstreet.market/)
@@ -180,3 +180,6 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## tolv
 
 - how to change the mouse pointer with element not image
+- background blurr without affecting text
+
+## rodicdavidson

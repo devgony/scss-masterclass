@@ -9,7 +9,7 @@ sass.compiler = require("node-sass");
 const routes = {
   css: {
     watch: "src/scss/*",
-    src: "src/scss/tolv.scss",
+    src: "src/scss/rodicdavidson.scss",
     dest: "dist/css/",
   },
 };
@@ -31,7 +31,7 @@ const watch = () => {
   gulp.watch(routes.css.watch, styles);
 };
 
-const clean = () => del(["dist/tolv.css"]);
+const clean = () => del(["dist/rodicdavidson.css"]);
 
 const prepare = gulp.series([clean]);
 
