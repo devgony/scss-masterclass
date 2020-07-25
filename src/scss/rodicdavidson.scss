@@ -5,9 +5,17 @@ body {
   & > section {
     margin-top: 1vh;
   }
+  .title,
+  header {
+    position: fixed;
+    top: 0;
+    padding-top: 1vh;
+    width: 100%;
+    background-color: white;
+    height: 3vh;
+  }
   .section-left {
     .title {
-      margin-top: 1vh;
       margin-left: 1vw;
       &:hover {
         color: blue;
@@ -17,7 +25,6 @@ body {
   }
   .section-right {
     header {
-      margin-bottom: 1vh;
       nav {
         display: flex;
         // justify-content: space-around;
@@ -34,7 +41,9 @@ body {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
-      grid-gap: 1vw;
+      // grid-gap: 1vw;
+      column-gap: 1vw;
+      row-gap: 3vh;
       .project {
         .img-project {
           background-image: url("https://source.unsplash.com/featured/?house");

@@ -1,0 +1,75 @@
+$color1: #e4c563;
+$color2: #558549;
+$color3: #97c3de;
+$color4: #dc534d;
+$color5: #ccb2a2;
+$color6: #198ca0;
+$color7: #ec9860;
+
+body {
+  header {
+    position: fixed;
+    background-color: lightgray;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      width: 50vw;
+    }
+  }
+  .gallery {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    .item {
+      height: 48vh;
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      .picture {
+        background-image: url("https://source.unsplash.com/featured/?house");
+        background-size: cover;
+        height: 20vh;
+        width: 70%;
+        margin: auto;
+      }
+      .comment {
+        text-align: center;
+      }
+      &:nth-child(1),
+      &:nth-child(5) {
+        background-color: $color5;
+      }
+      &:nth-child(2) {
+        background-color: $color6;
+      }
+      &:nth-child(3) {
+        background-color: $color2;
+      }
+      &:nth-child(4),
+      &:nth-child(7),
+      &:nth-child(9) {
+        background-color: $color1;
+      }
+      &:nth-child(8) {
+        background-color: $color4;
+      }
+      &:nth-child(10) {
+        background-color: $color7;
+      }
+      &:nth-child(11) {
+        background-color: #c9a995;
+      }
+      &:nth-child(12) {
+        background-color: #e4c974;
+      }
+    }
+  }
+}

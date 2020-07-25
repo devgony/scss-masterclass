@@ -125,8 +125,8 @@
 - [O][http://www.z-o-o.fr/](http://www.z-o-o.fr/)
 - [O][https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
 - [O][https://tolv.dk/](https://tolv.dk/)
-- [>][https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
-- [x] [https://beige.de/](https://beige.de/)
+- [O][https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
+- [>][https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
 - [x] [https://canalstreet.market/](https://canalstreet.market/)
 - [x] [https://wonhundred.com/](https://wonhundred.com/)
@@ -183,3 +183,7 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 - background blurr without affecting text
 
 ## rodicdavidson
+
+- diffrent gap
+  column-gap
+  row-gap
