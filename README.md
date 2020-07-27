@@ -191,3 +191,5 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## beige
 
 - need to study: hover + before, after, content add
+- make circle shape with empty li
+  it needs to be display: block to show background-color
