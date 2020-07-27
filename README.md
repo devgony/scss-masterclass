@@ -187,3 +187,7 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 - diffrent gap
   column-gap
   row-gap
+
+## beige
+
+- need to study: hover + before, after, content add
