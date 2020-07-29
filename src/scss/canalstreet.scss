@@ -1,0 +1,42 @@
+body {
+  header {
+    position: fixed;
+    background-color: white;
+    height: 5vh;
+    width: 100%;
+  }
+  main {
+    // grid-template-columns: 28.5fr 1fr 1fr 1fr;
+    display: flex;
+
+    .section__main {
+      width: 91%;
+      .picture {
+        background-image: url("https://source.unsplash.com/featured/?house");
+        background-size: cover;
+        height: 50vh;
+      }
+    }
+    .section__Food {
+      margin-left: 91%;
+      position: fixed;
+      width: 3%;
+      height: 100vh;
+      background-color: #5fa3ec;
+    }
+    .section__Retail {
+      margin-left: 94%;
+      position: fixed;
+      width: 3%;
+      height: 100vh;
+      background-color: #f64444;
+    }
+    .section__Community {
+      margin-left: 97%;
+      position: fixed;
+      width: 3%;
+      height: 100vh;
+      background-color: #ffb400;
+    }
+  }
+}
