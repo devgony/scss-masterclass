@@ -1,0 +1,48 @@
+body {
+  width: 95%;
+  height: 120vh;
+  margin: 4vh auto;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  header {
+    h1 {
+      font-size: 2.8rem;
+      font-family: "copernicus", serif;
+      font-weight: normal;
+    }
+  }
+  .main {
+    // margin-top: 15vh;
+    .column__header {
+      color: red;
+    }
+    .row {
+      margin-top: 2vh;
+      height: 3vh;
+      display: grid;
+      grid-template-columns: 1fr 3.8fr 6.3fr 0.3fr;
+      grid-template-rows: 1fr;
+      border-bottom: 1px solid black;
+      &:not(.column__header):hover {
+        font-style: italic;
+      }
+    }
+  }
+  .content__1,
+  .content__2 {
+    label {
+      color: red;
+      font-size: 50%;
+    }
+    a {
+      color: red;
+      text-decoration: underline;
+      &:hover {
+        cursor: pointer;
+        font-style: italic;
+      }
+    }
+  }
+}

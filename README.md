@@ -126,9 +126,9 @@
 - [O][https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
 - [O][https://tolv.dk/](https://tolv.dk/)
 - [O][https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
-- [>][https://beige.de/](https://beige.de/)
-- [x] [http://donicaida.com/](http://donicaida.com/)
-- [x] [https://canalstreet.market/](https://canalstreet.market/)
+- [O][https://beige.de/](https://beige.de/)
+- [O][http://donicaida.com/](http://donicaida.com/)
+- [>][https://canalstreet.market/](https://canalstreet.market/)
 - [x] [https://wonhundred.com/](https://wonhundred.com/)
 
 ## To figure out
@@ -193,3 +193,7 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 - need to study: hover + before, after, content add
 - make circle shape with empty li
   it needs to be display: block to show background-color
+
+## donicaida
+
+- use padding not height for the underline in table
