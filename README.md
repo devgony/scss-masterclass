@@ -128,8 +128,8 @@
 - [O][https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
 - [O][https://beige.de/](https://beige.de/)
 - [O][http://donicaida.com/](http://donicaida.com/)
-- [>][https://canalstreet.market/](https://canalstreet.market/)
-- [x] [https://wonhundred.com/](https://wonhundred.com/)
+- [O][https://canalstreet.market/](https://canalstreet.market/)
+- [>][https://wonhundred.com/](https://wonhundred.com/)
 
 ## To figure out
 
@@ -197,3 +197,11 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## donicaida
 
 - use padding not height for the underline in table
+
+## canalstreet
+
+- moving border with background
+
+## wonhundred
+
+- simply aligning text at center without flex?
