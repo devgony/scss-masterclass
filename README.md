@@ -205,3 +205,4 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## wonhundred
 
 - simply aligning text at center without flex?
+  > vertical-align: middle;
