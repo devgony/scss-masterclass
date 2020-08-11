@@ -129,7 +129,7 @@
 - [O][https://beige.de/](https://beige.de/)
 - [O][http://donicaida.com/](http://donicaida.com/)
 - [O][https://canalstreet.market/](https://canalstreet.market/)
-- [>][https://wonhundred.com/](https://wonhundred.com/)
+- [O][https://wonhundred.com/](https://wonhundred.com/)
 
 ## To figure out
 
@@ -205,4 +205,9 @@ url("https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?ixlib=rb-1.2.1
 ## wonhundred
 
 - simply aligning text at center without flex?
+
   > vertical-align: middle;
+  > line-height: 30px;
+
+- try to make footer without using html
+- flow the text infinitely
